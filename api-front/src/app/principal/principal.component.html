@@ -1,0 +1,27 @@
+<form>
+    <input type="text" placeholder="Nome" class="form-control">
+    <input type="number" placeholder="Idade" class="form-control">
+    <input type="text" placeholder="Cidade" class="form-control">
+
+    <input *ngIf="btnCadastro" type="button" value="Cadastrar" class="btn btn-primary">
+    <input *ngIf="!btnCadastro" type="button" value="ALterar" class="btn btn-warning">
+    <input *ngIf="!btnCadastro" type="button" value="Excluir" class="btn btn-danger">
+    <input *ngIf="!btnCadastro" type="button" value="Cancelar" class="btn btn-secondary">
+</form>
+
+
+<table class="table table-strip">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Cidade</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+
+    </tbody>
+</table>
